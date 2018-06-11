@@ -118,7 +118,7 @@ body p{
 .bar {
     display: grid;
     grid-area: bar;
-    grid-template-areas: 'bar-left bar-blank bar-right';
+    grid-template-areas: 'bar-left bar-center bar-right';
     grid-template-columns: min-content auto min-content;
 }
 .bar-left {
@@ -131,8 +131,8 @@ body p{
     grid-area: bar-right;
     grid-template-columns: repeat(5, auto);
 }
-.bar-blank {
-    grid-area: bar-blank;
+.bar-center {
+    grid-area: bar-center;
 }
 .bar {
     height: 44px;
